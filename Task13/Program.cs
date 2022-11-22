@@ -6,7 +6,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int num = new Random().Next(1, 1000000000);;
+int num = new Random().Next(1, 1000000000);
 string s = num.ToString();
 if (num > 99) 
 {
